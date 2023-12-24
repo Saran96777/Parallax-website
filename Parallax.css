@@ -1,0 +1,150 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+span{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.img1,.img2{
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    object-fit: cover;
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.main{
+    position: relative;
+    margin-bottom: -5px;
+}
+
+/*.scroll , .scroll1{
+    font-size: 100px;
+}*/
+
+.scroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    background-color: rgb(35, 78, 35);
+    color: white;
+
+    top: 15%;
+    left: 35%;
+    width: 300px;
+    height: 30px;
+    padding-left: 55px;
+    padding-top: 30px;
+    padding-right: 55px;
+    padding-bottom: 30px;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold ;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+
+    display: flex;
+    align-items: center;
+
+    background-color: blue;
+    color: black;
+
+    height: 30px;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-bottom: 5px;
+
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: italic;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.Para{
+    font-family: Poppins;
+    font-size: 14px;
+    margin-bottom: 0px;  
+    width: 370px;  
+}
+
+
+.cent-cont{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: -2px;
+}
+
+.cent{
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.scroll1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    color: rgb(187, 186, 186);
+
+    top: 15%;
+    left: 35%;
+    width: 300px;
+    height: 30px;
+    padding-left: 55px;
+    padding-top: 30px;
+    padding-right: 55px;
+    padding-bottom: 30px;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold ;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 38, 38);
+    color: white;
+
+    height: 100px;
+    margin-top: -3.5px;
+
+    padding-top: 10px;
+    padding-bottom: 10px ;
+    padding-left: 40%;
+    padding-right: 40%;
+
+    font-family: Poppins;
+    font-size: 15px;
+    
+}
+
+.cent-cont1{
+    margin-bottom: -4px;
+}
